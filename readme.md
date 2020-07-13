@@ -9,18 +9,26 @@ Since these lessons come from other fields, papers and books that discuss the in
 The intent for this project is to center a conversation on new Bayesian thinking and methods in political science venues using political science problems as motivation.
 It envisions two papers that discuss Bayesian approaches (broadly) separately from pragmatic advice for Bayesian implementation.
 
-1. **Revisiting Bayesian Foundations in Political Science.**
-   The "ideas" paper. 
-   Reframing of Bayesian modeling ideas for a new era.
-   We have new computational tools for estimating models, new insights about model parameterization, new insights about prior distributions, new models altogether, and so on.
-   We also have new ways to talk about what Bayesian modeling _is_, new language about generative modeling, "Bayesian inference without frequentist language," and heuristics for talking about information without invoking hazy notions of "belief."
-2. **Updating the Bayesian Modeling Workflow for Political Science.**
-   The "how-to" paper.
-   Tricks of the trade for thinking about, building, and checking Bayesian models.
-   Discuss software innovations since major Bayesian texts (Stan, HMC, VBI, ADVI) and how they affect model building, diagnosis, and validation (mainly focused on Stan, HMC, divergences, new Rhat...).
-   New thinking about prior strategy: conjugacy v. entropy v. "objectivity". Implied priors.
-   Parameterization (beta-binomial, non-centering...), regularizing priors (Normal/T/Cauchy), , covariance matrix priors (LKJ), Cholesky decomposition, sparsity-inducing priors, simplexes. 
-   Workflow: prior checks, implied priors, posterior checking, LOO
+
+## 1. Revisiting Bayesian Foundations in Political Science.
+
+The "ideas" paper. Reframing of Bayesian modeling ideas for a new era.
+
+- We also have new ways to talk about what Bayesian modeling _is_, information without invoking hazy notions of "belief." 
+- New pedagogy for discussing what Bayes is. "Merely conditional probability," generative modeling, running model forward/backward, "Bayesian inference without frequentist language" to unify the machinery of priors to the same machinery we use all the time in MLE (but careful not to make Bayes sound like MLE-plus-prior).
+- We have new computational tools for estimating models that change our calculations for what things can be feasibly modeled and how.
+- New insights about model parameterization, properties of prior distributions, likelihood context for priors, new models altogether, and so on.
+- Basically none of this stuff is available in the classic Bayesian tomes in PS. 
+
+
+## 2. Updating the Bayesian Modeling Workflow for Political Science.
+
+The "how-to" paper. Tricks of the trade for thinking about, building, and checking Bayesian models. Again, things NOT FOUND in Jackman or Gill.
+
+- Discuss the software innovations since the canonical Bayesian texts in polisci (Stan, Hamiltonian Monte Carlo, VBI, ADVI) and how they affect model building, diagnosis, and validation (mainly focused on Stan, HMC, divergences, new R-hat...). 
+- New thinking about prior strategy: revisiting the value of conjugacy, entropy, "objectivity", ins and outs of each and why you might/not want each. Implied priors for functions of parameters. 
+- Model building: parameterization (non-centering, beta-binomial, etc.), regularizing priors (Normal/T/Cauchy), covariance matrix priors (LKJ), Cholesky, sparsity-inducing priors, simplexes and other generative modeling ideas. 
+- Workflow: prior checks, implied priors, posterior checking, LOO
 
 
 
