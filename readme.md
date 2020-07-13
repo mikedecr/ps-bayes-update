@@ -1,10 +1,11 @@
 # Updated Bayesian Thinking and Workflow for Political Science 
 
 An aspirational project outline for a "post-PhD debrief" about Bayesian lessons learned. 
-The idea here is to memorialize the [_shadow dissertation_](https://twitter.com/mikedecr/status/1281304803109412868), all of the things I learned about doing Bayesian statistics that are totally banal in the world of applied Bayesian researchers, but almost entirely absent from applied political science.  
+The idea here is to memorialize the [_shadow dissertation_](https://twitter.com/mikedecr/status/1281304803109412868), all of the things I learned about doing Bayesian statistics that are totally banal in the world of applied Bayesian researchers, but almost entirely absent from applied political science.
 Political science has classic Bayesian texts (Jackman, Gill...) but they are a little dated.
-A new generation of lessons for Bayesian research from statistics, biological sciences, and psychology is absent from political science except implicitly in individual papers. 
-Because these lessons come from other fields, writings that discuss the innovations unto themselves use unfamiliar notation and jargon, and the modeling intuitions aren't always easy to connect to political science applications. 
+A new generation of lessons for Bayesian research from statistics, biological sciences, and psychology is absent from political science except implicitly in individual papers.
+Since these lessons come from other fields, papers and books that discuss the innovations unto themselves use different notational conventions and unfamiliar jargon, and the modeling intuitions aren't always easy to connect to political science applications.
+
 The intent for this project is to center a conversation on new Bayesian thinking and methods in political science venues using political science problems as motivation.
 It envisions two papers that discuss Bayesian approaches (broadly) separately from pragmatic advice for Bayesian implementation.
 
